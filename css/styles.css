@@ -1,0 +1,98 @@
+#body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #f0d39d;  
+  font-family: 'Oxygen', sans-serif;
+}
+
+#other {
+  font-size: 16px;
+  color: rgb(241, 235, 235);
+  background-color: #222121;  
+  font-family: 'Oxygen', sans-serif;
+}
+
+#main_title { 
+  font-size: 16px;
+  color: rgb(241, 235, 235);
+  font-size: 3.5rem;
+}
+
+#main_menu {
+background-color: #f0d39d;  
+text-align: center;
+padding: 1%;
+color: #2c2c2b; 
+margin-top: 10px;
+
+/* border: rgb(247, 243, 243);
+background-color: #2c2c2b;  
+color: #f3f3ed;  */
+}
+
+#menu_options {
+  text-align: center;
+font-size: 15px;
+border: rgb(247, 243, 243);
+background-color: #2c2c2b;  
+color: #f3f3ed; 
+
+}
+
+#home_tile {
+box-sizing: border-box;
+  border-width: 0.5rem;
+border-color: black;
+
+}
+
+#main_menu_content {
+
+  text-align: center;
+font-size: 15px;
+border: rgb(247, 243, 243);
+background-color: #2c2c2b;  
+color: #f3f3ed; 
+/* text-align: center;
+padding: 1%;
+color: #2c2c2b; 
+margin-top: 10px; */
+
+}
+
+.row {
+  /* width: 100%; */
+  box-sizing: border-box;
+  /* width: 100%; */
+  /* column-gap: 1px; */
+  
+  padding-left: 1%;
+   padding-right: 1%; 
+  margin-top: 10px;
+
+}
+
+.row div {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #7e7373;
+  padding: 2%;
+  margin-bottom: 3%;
+  color: #2c2c2b;
+  /* margin-right: 10px; */
+  /* flex-basis: content; */
+border: 20px solid #f0d39d;  /*masking border solid same color of background and WORKS !! is equivalent to margin-right: XXpx*/ 
+}
+
+
+
+#special {
+  text-align: center;
+padding: 1%;
+margin-top: 1%;
+color: #2c2c2b; 
+font-weight: bold;
+margin-right: 5px;
+}
+
+
